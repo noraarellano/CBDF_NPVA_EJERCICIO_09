@@ -226,8 +226,15 @@
         </defs>
       </svg>
       <h1>Hello, {{ title }}</h1>
-      <p>Congratulations! Your app is running. 🎉</p>
+      <h2>Tu nombre es {{nombre}}</h2>
+      <h2>Tu edad es de {{edad}}</h2>
+      <h2>Semestre: {{semestre}}</h2>
+      <h2>Calificaciones {{calificaciones[0]}},{{calificaciones[1]}}, {{calificaciones[2]}}, {{calificaciones[3]}}, {{calificaciones[4]}} ,{{calificaciones[5]}}, {{calificaciones[6]}}</h2>
+      <h2>Tu promedio es {{calcularpromedio()}}</h2>
+      <h2>Tu situacion academica es: {{estadoAlumno()}}</h2>
+      <p>Felicidades! Tu aplicaciòn esta corriendo. 🎉</p>
     </div>
+
     <div class="divider" role="separator" aria-label="Divider"></div>
     <div class="right-side">
       <div class="pill-group">
